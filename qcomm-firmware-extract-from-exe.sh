@@ -4,8 +4,8 @@ set -e
 set -u
 
 # Define the URL for the Lenovo firmware update
-LENOVO_FIRMWARE_URL="https://download.lenovo.com/pccbbs/mobiles/n42qq11w.exe"
-FIRMWARE_FILE="n42qq11w.exe"
+LENOVO_FIRMWARE_URL="https://download.lenovo.com/pccbbs/mobiles/n42qq22w.exe"
+FIRMWARE_FILE="n42qq22w.exe"
 
 device_model="$(tr -d '\0' </proc/device-tree/model)"
 case "$device_model" in
