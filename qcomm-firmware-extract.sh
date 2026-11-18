@@ -19,7 +19,7 @@ case "$device_model" in
 	"HP Omnibook X 14")
 		device_path="hp/omnibook-x14"
 		;;
-        "Lenovo ThinkPad T14s Gen 6"|"Lenovo ThinkPad T14s Gen 6 (LCD)")
+	"Lenovo ThinkPad T14s Gen 6"*)
 		device_path="LENOVO/21N1"
 		;;
 	"Lenovo Yoga Slim 7x")
