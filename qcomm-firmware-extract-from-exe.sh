@@ -9,7 +9,7 @@ FIRMWARE_FILE="n42qq22w.exe"
 
 device_model="$(tr -d '\0' </proc/device-tree/model)"
 case "$device_model" in
-	"Lenovo ThinkPad T14s Gen 6"|"Lenovo ThinkPad T14s Gen 6 (LCD)")
+	"Lenovo ThinkPad T14s Gen 6"*)
 		device_path="LENOVO/21N1"
 		;;
 	*)
